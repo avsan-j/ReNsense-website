@@ -1,0 +1,143 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+  
+.about-title{
+    font-size: 50px;
+}
+  
+.services-title{
+    font-size: 45px;
+}
+  
+nav {
+    font-family: "Poppins", sans-serif;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    
+}
+  
+nav ul{
+    float: left;
+    display: flex;
+    list-style-type: none;
+}
+  
+nav ul li a{
+    color: black;
+    font-size: large;
+    text-decoration: none;
+    padding: 15px;
+}
+  
+.main {
+    flex: 1;
+}
+  
+h1 {
+    font-size: 5rem;
+}
+  
+footer {
+    text-align: right;
+    color: midnightblue;
+}
+  
+.tile-image {
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+}
+  
+.logo{
+    float: left;
+    height: 50px;
+    width: 160px;
+}
+  
+.web-dev{
+    width: 16%;
+    height: 16%;
+    float: left;
+    padding-right: 20px;
+    border-radius: 50%;
+}
+  
+.web-con{
+    width: 16%;
+    height: 16%;
+    float: right;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border-radius: 50%;
+}
+  
+.about-content{
+    padding-top: 70px;
+}
+  
+.webdev-content{
+    padding-top: 60px;
+}
+  
+.webcon-content{
+    padding-top: 120px;
+}
+  
+.group{
+    height: 300px;
+    width: 500px;
+    float: left;
+}
+  
+.card {
+    width: 45%;
+}
+  
+.left {
+    float: left;
+}
+  
+.right {
+    float: right;
+}
+  
+.creative {
+    color: midnightblue;
+}
+  
+@media (max-width: 680px) {
+    .logo {
+      width: 100px;
+    }
+  
+    h1 {
+      font-size: 3.5rem;
+      text-align: center;
+    }
+  
+    .card {
+      width: 100%;
+      display: block;
+      margin-bottom: 30px;
+      text-align: justify;
+    }
+  
+    .card img {
+      margin-bottom: 10px;
+      width: 100%;
+      display: inline;
+      object-fit: cover;
+    }
+}
+  
