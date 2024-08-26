@@ -95,6 +95,10 @@ nav ul{
     }
 }
 
+/**/
+
+
+
 /*Home Page Animations*/
 
 .page-title h1.in-view{
@@ -118,7 +122,7 @@ nav ul{
     animation: fade-up 2s;
 }
 
-.retreats-title div.in-view{
+.retreats-title .commit.in-view{
     animation: fade-up 2s;
 }
 
@@ -162,7 +166,7 @@ nav ul{
     align-items: center; 
     justify-content: center;
     width: 95%;
-    height: 570px;
+    height: 35.63rem;
     padding-top: 40px;
     background-image: url(./images/image3.jpeg);
     background-repeat: no-repeat;
@@ -179,12 +183,22 @@ nav ul{
     padding-top: 90px;
 }
 
+.intro-paragraph {
+    text-align: left; 
+    padding: 20px 60px 0 60px; 
+    margin: 50px 0 80px 0;
+}
+
 .intro-paragraph .para-text{
     margin: 10px 20px 20px 30px; 
 }
 
-.intro-paragraph.in-view{
-    animation: fade-up 2s;
+.opening-container{
+    width: 100%; 
+    height: 220px; 
+    margin: 50px 10px 50px 10px; 
+    display: flex; 
+    justify-content: center;
 }
 
 .opening-title{
@@ -196,6 +210,35 @@ nav ul{
     font-family: 'Lobster Two', sans-serif;
     font-size: 27px;
     font-weight: 300;
+}
+
+.services{
+    width: 100%;
+    height: 330px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 0 20px 0;
+}
+
+.services.in-view{
+    animation: fade-up 2s;
+}
+
+#service{
+    width: 400px;
+    height: 300px;
+    background-color: #F9F5E8/*#eee7d9*/;
+    border-radius: 5%;
+    text-align:left;
+    font-size: 19px;
+}
+
+#service p{
+    margin: 10px 15px 0px 30px;
+}
+
+#service svg{
+    margin: 60px 0 30px 30px;
 }
 
 .commitments{
@@ -219,11 +262,16 @@ nav ul{
     margin-right: 10px;
 }
 
+.myth-background{
+    background-color: #333; 
+    width: 100%;
+}
+
 .myths{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    height: 400px;
-    justify-content: space-evenly;
+    height: 700px;
     /*font-family: 'Pacifico', cursive;*/
     margin-top: 90px;
 }
@@ -231,7 +279,9 @@ nav ul{
 
 .myth{
     width: 350px;
-    height: 250px;
+    height: 300px;
+    margin-right: 70px;
+    margin-left: 80px;
     display: flex;
     flex-wrap: wrap;
     font-family: 'Open Sans', sans-serif;
@@ -280,6 +330,14 @@ nav ul{
     color: #222;
 }
 
+.about-title h1{
+    font-size: 80px;
+}
+
+.about-image{
+    margin-top: 115px;
+}
+
 .mission{
     text-align: center;
     width: 80%;
@@ -288,6 +346,44 @@ nav ul{
     margin: 10px 0 80px 140px;
     border-radius: 20px;
 }
+.facts{
+    margin-bottom: 50px; 
+    width: 100%; 
+    height: 1450px; 
+    background: #333;
+}
+
+.fact-1{
+    text-align: center; 
+    width: 100%; 
+    height: 450px; 
+    margin-bottom: 90px;
+}
+
+.fact-1 p{
+    font-size: 20px; 
+    color: #fffbf0; 
+    margin: 0px 30px 20px 130px; 
+    padding-top: 230px; 
+    float: left;
+}
+
+.fact-2{
+    text-align: center; 
+    width: 100%; 
+    height: 300px; 
+    margin-top: 100px;
+}
+
+.fact-2 p{
+    width: 650px;
+    font-size: 20px; 
+    color: #fffbf0; 
+    margin: 20px 130px 30px 40px; 
+    padding-top: 170px; 
+    float: right;
+}
+
 
 .current-active{
     width: 100%; 
@@ -296,9 +392,19 @@ nav ul{
     display:flex;
 }
 
+.current-active p{
+    font-size: 17px; 
+    font-weight: 400; 
+    font-style: italic;
+    line-height: 30px; 
+    margin: 0;
+    padding: 16px;
+}
+
 .handstand{
     float: right; 
     margin-right: 140px; 
+    margin-top: 70px;
     width: 470px; 
     height: 400px; 
     border-width: 30px;
@@ -318,14 +424,79 @@ nav ul{
     border-radius: 15px;
 }
 
+.active-1{
+    height: 800px; 
+    width: 750px; 
+    position: relative;
+}
+
+.active-1-container{
+    z-index: 0; 
+    position: absolute; 
+    width: 700px; 
+    height: 600px;
+}
+
+.text-box-1{
+    display: flex;
+    flex-direction: column;
+    position: absolute; 
+    background-color:  white; 
+    width: 600px; 
+    height: 130px; 
+    margin: 60px 0 80px 600px; 
+    top: 0; 
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.active-1-container img{
+    margin: 0px 0 50px 200px; 
+    width: 460px; 
+    height: 550px; 
+    z-index: 0; 
+    position: absolute;
+}
+
+.active-2{
+    height: 600px; 
+    width: 3100px; 
+    float: right; 
+    margin: 400px 0 0 0;
+}
+
+.active-2-container{
+    z-index: 0; 
+    position: absolute; 
+    width: 750px; 
+    height: 700px;
+}
+
+.active-2-container img{
+    margin: 30px 0 30px 560px; 
+    width: 440px; 
+    height: 550px; 
+    z-index: 0; 
+    position: absolute;
+}
+
+.text-box-2{
+    position: absolute; 
+    background-color:  white; 
+    width: 600px; 
+    height: 120px; 
+    margin: 0 600px 200px 20px; 
+    bottom: 0; 
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
 .about-end-button{
     width: 100%;
-    height: 100px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 0px 0 50px 0;
+    margin: 40px 0 50px 0;
 }
 
 /*Retreats Page CSS*/
@@ -353,26 +524,74 @@ nav ul{
     color: white;
 }
 
-.retreats-title div{
+.retreats-title h1{
+    font-family: 'Lobster', sans-serif; 
+    font-size: 70px; 
+    padding-top: 240px; 
+    margin-bottom: 20px;
+}
+
+.commit{
+    display: inline-flex; 
+    width: auto; 
+    font-size: 17px;
     font-weight: 500;
-    font-size: 20px;
     color: white;
+}
+
+.retreat-intro{
+    width: 100%;
+    height: auto;
+    margin: 30px 0 50px 0;
+}
+
+#paragraph{
+    width: 70rem;
+    margin-left: 100px;
+    font-size: 18px;
+}
+
+.intro-title{
+    font-family: 'Lobster Two', sans-serif; 
+    font-size: 45px; 
+    font-weight: 300; 
+    margin: 20px 0 30px 100px;
+}
+
+.retreats-info p{
+    display: flex;
+    flex-direction: column;
+    font-size: 19px; 
+    margin: 20px 100px 90px 110px;
 }
 
 .retreat-info{
     width: 100%;
     height: 300px;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 400;
     margin-top: 100px;
 }
 
-.retreat-info ul {
+.retreat-info h1{
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 45px; 
+    font-weight: 300; 
+    margin: 0px 0 10px 100px;
+}
+
+#intro-par{
+    margin: 40px 0 20px 115px;
+}
+
+.list-1 {
+    margin: 20px 0 20px 110px;
     list-style-type: circle;
 }
 
 .retreat-info li{
     padding: 8px;
+    font-size: 18px;
 }
 
 .in-circle{
@@ -382,42 +601,22 @@ nav ul{
     background-color: white;
     align-items: center;
     margin: 10px 30px 0px 30px;
+    padding: 0;
 
 }
 
-.services{
-    width: 100%;
-    height: 330px;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0px 0 20px 0;
+.benefits{
+    width: 100%; 
+    height: auto; 
+    background-color: #333;
 }
 
-.services.in-view{
-    animation: fade-up 2s;
-}
-
-#service{
-    width: 400px;
-    height: 300px;
-    background-color: #F9F5E8/*#eee7d9*/;
-    border-radius: 5%;
-    text-align:left;
-    font-size: 19px;
-}
-
-#service p{
-    margin: 10px 15px 0px 30px;
-}
-
-#service svg{
-    margin: 60px 0 30px 30px;
-}
-
-.retreat-intro{
-    width: 100%;
-    height: auto;
-    margin: 30px 0 50px 0;
+.benefit-title{
+    width: 100%; 
+    height: auto; 
+    text-align: center; 
+    padding: 30px 0 30px 0;
+    margin-left: 0;
 }
 
 .benefits-container{
@@ -447,13 +646,17 @@ nav ul{
 
 #class-schedule{
     width: 400px;
-    height: 30px;
+    height: 350px;
     background-color: #F9F5E8/*#eee7d9*/;
     border-radius: 5%;
     text-align:left;
     font-family: 'Open Sans', sans-serif;
     font-size: 19px;
     margin-right: 40px;
+}
+
+.schedule-1{
+    margin-left: 30px;
 }
 
 .schedule svg{
@@ -478,16 +681,25 @@ nav ul{
 /*Contact Page CSS*/
 
 .contact-container{
-    width: 500px;
-    height: 300px;
+    width: 100%;
+    height: 540px;
     text-align: left;
     margin: 150px 0 50px 120px;
     display: inline-flex;
 }
 
+.contact-info{
+    padding: 100px 200px 0 100px;
+}
+
 #contact-info{
     display: inline-flex;
     font-size: 17px;
+}
+
+.contact-image{
+    width: 556px; 
+    height: 535px;
 }
 
 /*Quiz Page CSS*/
@@ -502,19 +714,54 @@ nav ul{
     margin: 120px 0 50px 0;
 }
 
+.quiz-title p{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 .quiz-title.in-view{
     animation: fade-up 2s;
 }
 
 .quiz-terms{
     width: 100%;
-    height: 560px;
+    height: 900px;
     display: flex;
     justify-content:space-evenly;
     font-size: 18px;
-    background-color: #333;
+    background-color: #66973B;
     font-family: 'Lobster Two', sans-serif;
     font-size: 22px;
+}
+
+.tooltip{
+    display: flex;
+    position: relative;
+    width: 400px;
+    height: 100px;
+    z-index: 1;
+}
+
+.tooltip .tooltiptext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+    z-index: 1;
+    background-color: #fffbf0;
+    color: #333;
+    border-radius: 6px;
+}
+
+.tooltip:hover .tooltiptext{
+    visibility: visible;
 }
 
 .quiz-content{
@@ -522,6 +769,10 @@ nav ul{
     height: 200px;
     text-align: left;
     font-size: 19px;
+}
+
+.quiz-content p{
+    padding-left: 120px;
 }
 
 .quiz-end-button{
@@ -534,8 +785,26 @@ nav ul{
     flex-direction: column;
 }
 
+.quiz-end-button h2{
+    font-family: 'Lobster Two', sans-serif; 
+    font-size: 35px; 
+    font-weight: 300; 
+    margin-right: 100px;
+}
+
+.quiz-end-button a{
+    margin: 20px 140px 0 0;
+}
+
+#term-1{
+    padding-left: 200px;
+}
+
+#term-2{
+    padding-right: 200px;
+}
+
 .term ul{
-    text-align: center;
     list-style-type: none;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -548,8 +817,10 @@ nav ul{
 }
 
 .term li{
+    height: 40px;
     padding: 10px;
-    padding-right: 40px;
+    padding-top: 30px;
+    padding-right: 20px;
     color: #fffbf0;
 }
 
@@ -668,6 +939,7 @@ nav ul{
     margin-left: 0px;
     margin-right: 150px;
     float: right;
+    margin-top: 100px;
 }
 
 .footer-grid section h3{
@@ -687,8 +959,506 @@ nav ul{
     font-size: 40px;
 }
 
-@media(max-width: 500px){
-    footer{
-      flex-direction:column;
+@media(max-width: 800px){
+
+    p{
+        font-size: 15px;
+    }
+
+    /*Home Page*/
+    .page-title{
+        padding: 50px;
+        width: 63%;
+        align-items: center;
+        justify-content: center;
+        margin: 115px 10px 0 27px;
+        background-image: url(./images/forest.jpeg);
+        text-align: center;
+    }
+
+    .services{
+        flex-direction: column;
+        height: 77.5rem;
+        padding-top: 50px;
+        align-items: center;
+    }
+
+    #service{
+        width: 18.75rem;
+    }
+
+    .commitments{
+        display: none;
+    }
+
+    .intro-paragraph{
+        width: 20.75rem;
+        margin: 20px 0 70px 0;
+        padding: 0 0 0 45px;
+        text-align: center;
+    }
+
+    .intro-paragraph .para-text{
+        margin: 0px 20px 20px 20px;
+    }
+
+    .opening-container{
+        height: 20rem;
+        margin-left: 0;
+    }
+
+    .opening-title{
+        padding: 20px;
+    }
+
+    .myth-background{
+        width: 100%;
+    }
+
+    .myths{
+        height: 117.5rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .myth{
+        margin-left: 0px;
+        padding-left: 20px;
+        margin-right: 0px;
+    }
+
+    .myth p{
+        padding-right: 15px;
+    }
+
+    .myth-title h1{
+        padding: 20px;
+    }
+
+    .before-review{
+        height: 15rem;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .before-review p{
+        padding: 20px;
+    }
+
+    .retreat-button{
+        text-align: center;
+    }
+
+    /*About Page*/
+
+    .about{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-title{
+        margin-left: 35px;
+        margin-bottom: 30px;
+        margin-right: 0px;
+        width: 90%;
+        height: 20rem;
+        padding-top: 60px;
+    }
+
+    .about-title h1{
+        font-family: 'Lobster Two', sans-serif;
+        font-size: 40px;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .about-title p{
+        padding-right: 35px;
+        margin-top: 0;
+    }
+
+    .about-image{
+        margin-top: 30px;
+    }
+
+    .about-image img{
+        width: 20rem;
+        height: 30rem;
+        padding-right: 15px;
+    }
+
+    .mission{
+        margin: 50px 0 50px 35px;
+        height: 30rem;
+    }
+
+    .mission p{
+        padding: 20px;
+    }
+    
+    .facts{
+        height: 114rem;
+    }
+
+    .fact-1{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        height: 46rem;
+    }
+
+    .fact-1 p{
+        padding: 70px 25px 0 35px;
+        margin: 0 0px 20px 0px;
+    }
+
+
+    .handstand{
+        width: 75%;
+        height: 20rem;
+        margin: 0 0 0 0px;
+        border-width: 20px;
+    }
+
+    .fact-2{
+        display: flex;
+        flex-direction: column;
+        height: 45rem;
+        margin-top: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .fact-2 p{
+        width: 75%;
+        padding-top: 50px;
+        margin: 0px;
+    }
+
+    .something{
+        width: 75%;
+        height: 20rem;
+        margin-left: 0px;
+        border-width: 20px;
+    }
+
+    .current-active{
+        width: 100%;
+        height: 50rem;
+        margin-top: 70px;
+    }
+
+    .current-active p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .active-1{
+        width: 100%;
+        height: 35rem;
+
+    }
+
+    .active-1-container{
+        width: 24rem;
+        height: 40rem;
+    }
+
+    .active-1-container img{
+        width: 80%;
+        height: 25rem;
+        left: 0;
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+
+    .text-box-1{
+        margin-left: 120px;
+        margin-bottom: 150px;
+        margin-top: 0px;
+        top: 0;
+        z-index: 1;
+        width: 15rem;
+        height: 13rem;
+    }
+
+    .active-2{
+        width: 100%;
+        height: 40rem;
+        margin-top: 500px;
+        left: 0;
+    }
+
+    .active-2-container{
+        width: 26rem;
+        height: 40rem;
+        left: 0;
+    }
+
+    .active-2-container img{
+        width: 70%;
+        height: 25rem;
+        left: 0;
+        margin-left: 30px;
+        margin-top: 200px;
+    }
+
+    .text-box-2{
+        width: 13rem;
+        height: 11.5rem;
+        z-index: 1;
+        margin-bottom: 390px;
+        margin-left: 150px;
+    }
+
+    .about-end-button{
+        height: 150px;
+        margin-top: 380px;
+        text-align: center;
+    }
+
+    /*Retreats Page*/
+
+    .retreats-title{
+        width: 90%;
+        margin-left: 22px;
+        margin-right: 0;
+    }
+
+    .retreats-title .commit{
+        display: none;
+    }
+
+    .retreats-title h1{
+        padding-top: 200px;
+    }
+
+    .retreat-intro h2{
+        margin-left: 50px;
+    }
+
+    .para-1{
+        width: 20rem;
+    }
+
+    #paragraph{
+        margin-left: 50px;
+        width: 20rem;
+    }
+
+    #paragraph p{
+        padding-right: 50px;
+    }
+
+    .para-2{
+        display: none;
+    }
+
+    .benefits{
+        height: 75rem;
+    }
+
+    .benefit-title h2{
+        margin-left: 0;
+    }
+
+    .benefits-container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #benefit{
+        height: 250px;
+    }
+
+    .retreat-info{
+        height: 70rem;
+    }
+
+    .retreat-info h1{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    #intro-par{
+        margin-left: 60px;
+        padding-right: 40px;
+    }
+
+    .list-1{
+        margin-left: 40px;
+    }
+
+    .retreat-info li{
+        font-size: 15px;
+    }
+
+    #class-schedule{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
+
+    .schedule{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 70rem;
+    }
+
+    .schedule-1{
+        margin-left: 20px;
+    }
+
+    /*Contact Page*/
+
+    .contact-container{
+        flex-direction: column-reverse;
+        margin-left: 0px;
+        margin-top: 30px;
+        height: 45rem;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-info{
+        width: 80%;
+        padding: 0;
+        
+    }
+
+    .contact-info hr{
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .contact-image{
+        padding-top: 10px;
+        height: 420px;
+        width: 380px;
+    }
+
+    .contact-image img{
+        width: 100%;
+        height: 25rem;
+    }
+
+    /*Quiz Page*/
+
+    .quiz-title{
+        text-align: center;
+    }
+    .quiz-title h2{
+        padding: 0 30px 0 30px;
+    }
+
+    .quiz-title p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .quiz-terms{
+        flex-direction: column;
+        height: 170rem;
+        align-items: center;
+    }
+
+    #term-1{
+        padding-left: 0px;
+    }
+
+    #term-2{
+        padding-right: 0px;
+    }
+
+    .tooltip{
+        flex-direction: column;
+        width: 300px;
+        height: 160px;
+    }
+
+    .tooltip .tooltiptext{
+        width: 250px;
+        height: 80px;
+    }
+
+    .quiz-content{
+        width: 100%;
+        height: 15rem;
+    }
+
+    .quiz-content p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .quiz-end-button{
+        width: 85%;
+        height: 350px;
+        margin-left: 30px;
+        text-align: center;
+    }
+
+    .quiz-end-button h2{
+        width: 100%;
+        margin-right: 0px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .quiz-end-button a{
+        margin-right: 0px;
+    }
+
+    /*Footer*/
+
+    #footer{
+        width: 100%;
+        flex-direction:column;
+        height: 60rem;
+    }
+
+    .footer-grid{
+        flex-direction: column;
+    }
+
+    .caption{
+        padding: 20px;
+        text-align: center;
+    }
+
+    .footer-grid section{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .footer-1{
+        text-align: center;
+    }
+
+    .footer-2{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+        padding-top: 50px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-phone{
+        padding-left: 45px;
     }
 }
