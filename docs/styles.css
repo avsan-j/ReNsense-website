@@ -1332,7 +1332,7 @@ nav ul{
     .contact-container{
         flex-direction: column-reverse;
         margin-left: 0px;
-        margin-top: 30px;
+        margin-top: 80px;
         height: 45rem;
         width: 100%;
         align-items: center;
@@ -1345,6 +1345,10 @@ nav ul{
         
     }
 
+    .contact-info h2{
+        width: 320px;
+    }
+
     .contact-info hr{
         width: 80%;
         margin-left: 0;
@@ -1353,7 +1357,7 @@ nav ul{
     .contact-image{
         padding-top: 10px;
         height: 420px;
-        width: 380px;
+        width: 350px;
     }
 
     .contact-image img{
