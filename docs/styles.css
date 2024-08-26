@@ -992,9 +992,10 @@ nav ul{
     }
 
     .intro-paragraph{
-        width: 20.75rem;
+        width: 100%;
         margin: 20px 0 70px 0;
-        padding: 0 0 0 45px;
+        padding: 0px;
+        align-items: center;
         text-align: center;
     }
 
