@@ -1379,7 +1379,7 @@ nav ul{
         padding-right: 20px;
     }
 
-    .quiz-terms{
+    /*.quiz-terms{
         flex-direction: column;
         height: 170rem;
         align-items: center;
@@ -1402,6 +1402,15 @@ nav ul{
     .tooltip .tooltiptext{
         width: 250px;
         height: 80px;
+    }*/
+
+    #question{
+        margin: 0px;
+    }
+
+    .view-results{
+        margin-left: 50px;
+        margin-right: 10px;
     }
 
     .quiz-content{
