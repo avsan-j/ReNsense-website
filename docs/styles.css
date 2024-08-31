@@ -824,6 +824,46 @@ nav ul{
     color: #fffbf0;
 }
 
+#question{
+    margin-left: 80px;
+    list-style-type: none;
+}
+
+#question-title{
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 25px;
+}
+
+.choices{
+    padding-left: 0;
+}
+
+.choices span{
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-size: 17px;
+    width: 80%;
+}
+
+.choices li{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.view-results{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 20px 20px 0 120px;
+    background-color: #fffbf0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #333;
+    border-radius: 1.5rem;
+}
+
 /************************************************************/
 
 /*Home Page Carousel CSS*/
