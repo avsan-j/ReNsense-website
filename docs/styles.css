@@ -263,8 +263,8 @@ nav ul{
 }
 
 .myth-background{
-    background-color: #333;
-    /*background-image: url(./images/lake.jpeg);*/
+    /*background-color: #333;*/
+    background-image: url(./images/lake.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
