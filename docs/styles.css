@@ -263,7 +263,10 @@ nav ul{
 }
 
 .myth-background{
-    background-color: #333; 
+    /*background-color: #333;*/
+    background-image: url(./images/lake.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
 }
 
@@ -725,7 +728,7 @@ nav ul{
 
 .quiz-terms{
     width: 100%;
-    height: 900px;
+    height: auto;
     display: flex;
     justify-content:space-evenly;
     font-size: 18px;
@@ -734,7 +737,7 @@ nav ul{
     font-size: 22px;
 }
 
-.tooltip{
+/*.tooltip{
     display: flex;
     position: relative;
     width: 400px;
@@ -762,6 +765,59 @@ nav ul{
 
 .tooltip:hover .tooltiptext{
     visibility: visible;
+}*/
+
+#term{
+    perspective: 1000px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+:checked + .quiz-card{
+    transform: rotateY(180deg);
+}
+
+.quiz-card{
+    transition: transform 0.3s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    text-align: center;
+}
+
+.flip-card{
+    position: relative;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 130px;
+    transition: transform(0.3s);
+    transform-style: preserve-3d;
+    display: flex;
+    align-items: center;
+}
+
+.flip-front, .flip-back{
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    width: auto;
+    height: auto;
+}
+
+.flip-front{
+    height: 200px;
+    width: 250px;
+}
+
+.flip-front li{
+    padding-left: 50px;
+}
+
+.flip-back{
+    transform: rotateY(180deg);
+}
+
+.flip-back p{
+    padding: 15px;
 }
 
 .quiz-content{
@@ -798,6 +854,9 @@ nav ul{
 
 #term-1{
     padding-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #term-2{
@@ -808,6 +867,7 @@ nav ul{
     list-style-type: none;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 0px;
     margin-top: 60px;
     border-style: solid;
     border-width: 3px;
@@ -818,10 +878,18 @@ nav ul{
 
 .term li{
     height: 40px;
-    padding: 10px;
     padding-top: 30px;
-    padding-right: 20px;
     color: #fffbf0;
+}
+
+
+.quiz-container{
+    width: 100%;
+    height: auto;
+}
+
+.quiz-container input[type = radio]{
+    accent-color: #333;
 }
 
 #question{
