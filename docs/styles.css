@@ -581,15 +581,15 @@ nav ul{
 /*Retreats Page CSS*/
 
 .retreat-button{
-    width: 100%;
+    width: 500px;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+    padding-left: 150px;
 }
-
 .retreats-title{
     width: 95%;
     height: 600px;
