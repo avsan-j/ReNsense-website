@@ -322,6 +322,30 @@ nav ul{
     font-family: 'Open Sans', sans-serif;
 }
 
+.button-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.vert-line{
+    height: 170px;
+    border: 1px solid;
+    margin: 140px 70px 70px 70px;
+}
+
+.specials-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+.specials-button h2{
+    margin-bottom: 30px;
+}
+
 /*About Page CSS*/
 
 .about-title {
