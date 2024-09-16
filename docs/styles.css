@@ -150,6 +150,12 @@ nav ul{
     animation: fade-up 2s;
 }
 
+/*Specials Page CSS*/
+
+.specials-title h1.in-view{
+    animation: fade-up 2s;
+}
+
 /**********************************************************/
 
 /*Home Page CSS*/
@@ -362,6 +368,19 @@ nav ul{
 
 .about-image{
     margin-top: 115px;
+}
+
+.about-par{
+    font-size: 19px;
+    padding: 50px 150px 50px 150px;
+}
+
+.about-par p{
+    line-height: 30px;
+}
+
+.about-par li{
+    padding: 10px;
 }
 
 .mission{
