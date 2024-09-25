@@ -1392,12 +1392,27 @@ nav ul{
         padding: 20px;
     }
 
+    .button-container{
+        flex-direction: column;
+    }
+
+    .vert-line{
+        display: none;
+    }
+
     .retreat-button{
         text-align: center;
+        padding-left: 20px;
+        width: 95%;
     }
 
     .retreat-button h2{
         padding: 20px;
+    }
+
+    .specials-button{
+        text-align: center;
+        
     }
 
     /*About Page*/
@@ -1760,12 +1775,18 @@ nav ul{
 
     .quiz-terms{
         flex-direction: column;
-        height: 170rem;
+        height: 570rem;
         align-items: center;
     }
 
+    .term{
+        margin-top: 0;
+    }
+
+
     #term-1{
         padding-left: 0px;
+        padding-bottom: 0;
     }
 
     #term-2{
@@ -1794,7 +1815,7 @@ nav ul{
 
     .quiz-content{
         width: 100%;
-        height: 15rem;
+        height: 12rem;
     }
 
     .quiz-content p{
