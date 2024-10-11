@@ -161,7 +161,7 @@ nav ul{
 /*Home Page CSS*/
 .intro-paragraph p{
     font-family: "Open Sans", sans-serif;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 400;
     color: #222;
     margin-bottom: 0;
@@ -212,7 +212,7 @@ nav ul{
 }
 
 .intro-paragraph li{
-    font-size: 19px;
+    font-size: 18px;
     padding: 10px;
 }
 
@@ -940,6 +940,14 @@ nav ul{
     height: 535px;
 }
 
+.more-abt-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 70px 0 0px 0;
+}
+
 /*Quiz Page CSS*/
 
 .quiz-title{
@@ -1182,6 +1190,51 @@ nav ul{
     border-width: 2px;
     border-color: #333;
     border-radius: 1.5rem;
+}
+
+/*Extended About Page CSS*/
+
+.ext-abt-title-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.ext-abt-title{
+    width: 95%;
+    height: 37.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 110px 0px 0px 0px;
+    background-image: url(./images/mat.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.ext-abt-title h1{
+    font-size: 70px;
+    color: white;
+}
+
+.ext-abt-text{
+    margin: 70px 0px 100px 0px;
+    padding: 0px 100px 0px 100px
+}
+
+.ext-abt-text h1{
+    margin: 20px 0px 30px 0px; 
+    font-family: 'Lobster Two', sans-serif; 
+    font-weight: 300; 
+    font-size: 45px;
+}
+
+.ext-abt-text p{
+    font-size: 18px;
 }
 
 /************************************************************/
@@ -1926,6 +1979,12 @@ nav ul{
 
     .footer-phone{
         padding-left: 45px;
+    }
+
+    /*Extended About Page*/
+
+    .ext-abt-text{
+        padding: 0px 30px 0px 30px;
     }
 }
 
