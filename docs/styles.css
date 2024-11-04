@@ -26,6 +26,10 @@ h2{
     font-weight: 300;
 }
 
+p{
+    line-height: 32px;
+}
+
 .button{
     padding: 8px 20px;
     font-family: 'Open Sans', sans-serif;
@@ -156,6 +160,11 @@ nav ul{
     animation: fade-up 2s;
 }
 
+/*Accountability Page Animation*/
+
+.account-intro h1.in-view{
+    animation: fade-up 2s;
+}
 /**********************************************************/
 
 /*Home Page CSS*/
