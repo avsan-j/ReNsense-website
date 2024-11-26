@@ -2,6 +2,7 @@ var video1 = document.getElementById("yoga-video1");
 var video2 = document.getElementById("yoga-video2");
 var video3 = document.getElementById("yoga-video3");
 var video4 = document.getElementById("yoga-video4");
+var video5 = document.getElementById("yoga-video5");
 
 //For Video 1
 video1.addEventListener("click", () => {
@@ -44,8 +45,8 @@ video3.addEventListener("ended", () =>{
 });
 
 video4.addEventListener("click", () => {
-    if (video4.paused) {
-        video4.play();
+    if (video5.paused) {
+        video5.play();
     } else {
         video4.pause();
     }
@@ -54,4 +55,17 @@ video4.addEventListener("click", () => {
 video4.addEventListener("ended", () =>{
     video4.pause();
     video4.currentTime() = 0;
+});
+
+video5.addEventListener("click", () => {
+    if (video5.paused) {
+        video5.play();
+    } else {
+        video5.pause();
+    }
+});
+
+video5.addEventListener("ended", () =>{
+    video5.pause();
+    video5.currentTime() = 0;
 });
