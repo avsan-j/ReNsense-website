@@ -45,8 +45,8 @@ video3.addEventListener("ended", () =>{
 });
 
 video4.addEventListener("click", () => {
-    if (video5.paused) {
-        video5.play();
+    if (video4.paused) {
+        video4.play();
     } else {
         video4.pause();
     }
