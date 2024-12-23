@@ -15,19 +15,26 @@ hr {
 }
 
 h1{
-    font-family: "Lobster", sans-serif;
+    font-family: "Merriweather", serif;
     font-size: 50px;
-    font-weight: 400;
+    font-weight: 600;
+    font-style: italic;
 }
 
 h2{
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 40px;
     font-weight: 400;
 }
 
 p{
     line-height: 32px;
+}
+
+span{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .button{
@@ -206,8 +213,7 @@ nav ul{
 }
 
 .page-title h1{
-    font-family: "Alex Brush", cursive;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 70px;
     font-style: normal;
     padding-top: 90px;
@@ -252,14 +258,14 @@ nav ul{
 }
 
 .first-div{
-    width: 520px;
+    width: 570px;
     height: 550px;
-    margin: 0px 30px 0px 30px;
+    margin: 0px 50px 0px 50px;
     text-align: center;
 }
 
 .first-div img{
-    width: 520px;
+    width: 570px;
     height: 550px;
     border-radius: 20px;
 }
@@ -267,6 +273,23 @@ nav ul{
 .first-div h2{
     padding-top: 170px;
     color:#fffbf0
+}
+
+.slogan{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+}
+
+.slogan h2{
+    font-size: 47px;
+    font-style: italic;
+}
+
+.slogan hr{
+    width: 70%;
+    height: 2.5px;
 }
 
 .opening-container{
@@ -350,15 +373,42 @@ nav ul{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 700px;
+    height: 600px;
     /*font-family: 'Pacifico', cursive;*/
     margin-top: 90px;
 }
 
+.myth-button{
+    width: 400px;
+    height: 60px;
+    background-color: transparent;
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    border: none;
+    color: white;
+    text-align: start;
+}
+
+.myth-content{
+    display: none;
+    transition: height 1s ease;
+}
+
+.myth-content.show{
+    width: 450px;
+    height: 240px;
+    margin: 0px 0px 0px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif;
+    color: #fffbf0;
+    font-size: 18px;
+    line-height: 30px;
+}
 
 .myth{
     width: 350px;
-    height: 300px;
+    height: 200px;
     margin-right: 70px;
     margin-left: 80px;
     display: flex;
@@ -372,14 +422,9 @@ nav ul{
 .myth-title {
     text-align: center;
     margin: 50px 0 40px 10px;    
-    
+    color: white;
 }
 
-.myth-title h1{
-    font-family: 'Lobster Two', sans-serif; 
-    font-size: 50px;
-    color: #fffbf0;
-}
 
 .before-review{
     height: 100px; 
@@ -414,6 +459,8 @@ nav ul{
     width: 100%;
     height: auto;
     display: flex;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 .vert-line{
@@ -427,7 +474,9 @@ nav ul{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 55px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    width: 450px;
 }
 
 .specials-button h2{
@@ -453,7 +502,7 @@ nav ul{
 }
 
 .about-par{
-    font-size: 19px;
+    font-size: 18px;
     padding: 0px 150px 20px 150px;
 }
 
@@ -461,8 +510,27 @@ nav ul{
     line-height: 30px;
 }
 
+.about-par span{
+    font-size: 20px;
+}
+
 .about-par li{
     padding: 10px;
+}
+
+.choose-div{
+    width: 100%;
+    height: auto;
+}
+
+.choose-content{
+    display: none;
+    transition: height ease 1s;
+}
+
+.choose-content.show{
+    width: 100%;
+    height: 500px;
 }
 
 .more-abt-btn-2{
@@ -702,7 +770,6 @@ nav ul{
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-    padding-left: 150px;
 }
 
 .retreats-title{
@@ -719,8 +786,7 @@ nav ul{
 }
 
 .retreats-title h1{
-    font-family: 'Lobster', sans-serif; 
-    font-size: 70px; 
+    font-size: 60px; 
     padding-top: 240px; 
     margin-bottom: 20px;
 }
@@ -755,7 +821,6 @@ nav ul{
 }
 
 .intro-title{
-    font-family: 'Lobster Two', sans-serif; 
     font-size: 45px; 
     font-weight: 300; 
     margin: 20px 0 30px 100px;
@@ -776,8 +841,7 @@ nav ul{
     margin-top: 100px;
 }
 
-.retreat-info h1{
-    font-family: 'Lobster Two', sans-serif;
+.retreat-info h2{
     font-size: 45px; 
     font-weight: 300; 
     margin: 0px 0 10px 100px;
@@ -829,6 +893,10 @@ nav ul{
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 30px;
+}
+
+.benefits span{
+    font-size: 22px;
 }
 
 #benefit{
@@ -945,7 +1013,6 @@ nav ul{
 }
 
 .offers-container h3{
-    font-family: 'Lobster Two', sans-serif;
     font-size: 30px;
     font-weight: 300;
     width: 100%;
@@ -959,7 +1026,6 @@ nav ul{
 }
 
 .offers-container span{
-    font-family: 'Lobster Two', sans-serif;
     font-size: 25px;
     font-weight: 300;
 }
@@ -981,7 +1047,7 @@ nav ul{
 }
 
 #offer h3{
-    font-family: 'Lobster Two', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 27px;
     font-weight: 300;
     text-align: center;
@@ -1051,7 +1117,7 @@ nav ul{
     width: 95%;
     height: 37.5rem;
     text-align: center;
-    background-image: url(./images/check.webp);
+    background-image: url(./images/group2.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 110px;
@@ -1194,10 +1260,10 @@ nav ul{
     display: flex;
     justify-content:space-evenly;
     font-size: 18px;
-    background-image: url(./images/forest3.jpg);
+    background-image: url(./images/boat.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Lobster Two', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 22px;
 }
 
@@ -1239,7 +1305,7 @@ nav ul{
     position: absolute;
     width: auto;
     height: auto;
-    color: white;
+    color: black;
 }
 
 .flip-front{
@@ -1279,18 +1345,20 @@ nav ul{
     justify-content: center; 
     align-items: center; 
     flex-direction: column;
+    text-align: center;
 }
 
 .quiz-button-container{
     display: flex;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .quiz-end-button h2{
-    font-family: 'Lobster Two', sans-serif; 
+    font-family: 'Merriweather', serif; 
     font-size: 35px; 
     font-weight: 300; 
-    margin-right: 100px;
+    margin-right: 150px;
 }
 
 .quiz-end-button a{
@@ -1325,7 +1393,7 @@ nav ul{
 .term li{
     height: 40px;
     padding-top: 30px;
-    color: #fffbf0;
+    color:#222;
 }
 
 
@@ -1345,7 +1413,7 @@ nav ul{
 }
 
 #question-title{
-    font-family: 'Lobster Two', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 25px;
 }
 
@@ -1415,7 +1483,7 @@ nav ul{
 
 .ext-abt-text h1{
     margin: 20px 0px 30px 0px; 
-    font-family: 'Lobster Two', sans-serif; 
+    font-family: 'Merriweather', serif; 
     font-weight: 300; 
     font-size: 45px;
 }
@@ -1555,7 +1623,6 @@ nav ul{
 }
 
 .caption h1{
-    font-family: 'Lobster Two', sans-serif;
     font-size: 40px;
 }
 
@@ -2196,4 +2263,3 @@ nav ul{
         text-align: center;
     }
 }*/
-
