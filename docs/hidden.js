@@ -6,9 +6,6 @@ const buttonDropdown4 = document.getElementById("myth-button4");
 const buttonDropdown5 = document.getElementById("myth-button5");
 const buttonDropdown6 = document.getElementById("myth-button6");
 
-//button for About dropdown
-const buttonDropdown7 = document.getElementById("choose-button");
-
 //contents for Home page
 const dropdownContent1 = document.getElementById("myth-content1");
 const dropdownContent2 = document.getElementById("myth-content2");
@@ -16,9 +13,6 @@ const dropdownContent3 = document.getElementById("myth-content3");
 const dropdownContent4 = document.getElementById("myth-content4");
 const dropdownContent5 = document.getElementById("myth-content5");
 const dropdownContent6 = document.getElementById("myth-content6");
-
-//content for About page
-const dropdownContent7 = document.getElementById("choose-content");
 
 //event listeners for Home page
 buttonDropdown1.addEventListener("click", () => {
@@ -45,8 +39,3 @@ buttonDropdown6.addEventListener("click", () => {
     dropdownContent6.classList.toggle("show");
 });
 
-//event listeners for About page
-
-buttonDropdown7.addEventListener("click", () => {
-    dropdownContent7.classList.toggle("show");
-});
