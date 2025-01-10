@@ -112,6 +112,24 @@ nav ul{
     }
 }
 
+@keyframes fadeInOut{
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
 /**/
 
 
@@ -1105,6 +1123,26 @@ nav ul{
 .contact-image{
     width: 556px; 
     height: 535px;
+    position: relative;
+}
+
+.c-image{   
+    transition: opacity 2s ease-in-out;
+    opacity: 0;
+}
+
+#image-1{
+    position: absolute;
+    opacity: 1;
+}
+
+#image-2{
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    height: 100%;
+    margin-left: 90px;
+    border-radius: 15px;
 }
 
 .more-abt-btn{
@@ -1504,6 +1542,56 @@ nav ul{
     font-size: 18px;
 }
 
+#ext-abt-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.ext-abt-div{
+    margin-bottom: 100px;
+}
+
+.ext-abt-div p{
+    padding-left: 50px;
+}
+
+.ext-abt-div-rev p{
+    padding-right: 50px;
+}
+
+.img1{
+    height: 500px;
+    border-radius: 15px;
+}
+
+.img2{
+    height: 500px;
+    border-radius: 15px;
+}
+
+.img3{
+    height: 500px;
+    border-radius: 15px;
+}
+
+.img4{
+    height: 500px;
+    border-radius: 15px;
+}
+
+.img5{
+    height: 550px;
+    border-radius: 15px;
+}
+
+.img6{
+    height: 400px;
+    width: 550px;
+    border-radius: 15px;
+}
 /************************************************************/
 
 /*Home Page Carousel CSS*/
