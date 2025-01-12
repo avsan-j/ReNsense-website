@@ -244,7 +244,8 @@ nav ul{
 }
 
 .intro-paragraph .para-text{
-    margin: 10px 20px 20px 30px; 
+    margin: 10px 20px 20px 30px;
+    display: flex; 
 }
 
 .intro-paragraph ul{
@@ -270,9 +271,16 @@ nav ul{
     height: 600px;
     justify-content: center;
     align-items: center;
-    background-color: #333;
+    background-image: url(./images/group.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 20px;
-    margin-left: 15px;
+    margin-left: 35px;
+    color: whitesmoke;
+}
+
+.first-container h1{
+    font-size: 60px;
 }
 
 .first-div{
@@ -312,20 +320,26 @@ nav ul{
 
 .opening-container{
     width: 100%; 
-    height: 300px; 
+    height: 600px; 
     margin: 50px 10px 40px 10px; 
     display: flex; 
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .opening-title{
     width: 740px;
     height: 350px; 
-    text-align: center; 
-    display: flex; 
-    flex-wrap: wrap; 
+    text-align: center;  
     font-size: 27px;
     font-weight: 300;
+}
+
+.opening-container img{
+    height: 470px;
+    width: 350px;
+    border-radius: 15px;
 }
 
 .services{
@@ -379,6 +393,33 @@ nav ul{
     margin-right: 10px;
 }
 
+.intro-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-image{
+    width: 500px;
+    height: 400px;
+}
+
+.intro-image img{
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.para-subdiv-1 p{
+    padding: 20px 100px 0px 0px;
+}
+
+.para-subdiv-2{
+    width: 100%;
+    margin: 0px 0px 0px 30px;
+}
+
+.para-subdiv-2 ul{
+    padding-right: 50px;
+    line-height: 35px;
+}
 .myth-background{
     /*background-color: #333;*/
     background-image: url(./images/sunset.jpg);
@@ -1099,15 +1140,15 @@ nav ul{
 
 .contact-container{
     width: 90%;
-    height: 540px;
+    height: 500px;
     text-align: left;
     margin: 150px 0 50px 0px;
-    padding-left: 150px;
+    padding-left: 140px;
     display: inline-flex;
 }
 
 .contact-info{
-    padding: 100px 200px 0 100px;
+    padding: 100px 100px 0 0px;
 }
 
 #contact-info{
@@ -1121,29 +1162,41 @@ nav ul{
 }
 
 .contact-image{
-    width: 556px; 
-    height: 535px;
+    width: 990px; 
+    height: 735px;
     position: relative;
+    display: flex;
+    justify-content: space-evenly
 }
 
-.c-image{   
+#image-1{
+    width: 470px;
+    height: 450px;
+    border-radius: 15px;
+}
+
+#image-2{
+    width: 320px;
+    height: 450px;
+    border-radius: 15px;
+}
+
+/*.c-image{   
     transition: opacity 2s ease-in-out;
     opacity: 0;
 }
 
 #image-1{
-    position: absolute;
     opacity: 1;
 }
 
 #image-2{
     position: absolute;
     z-index: 1;
-    opacity: 0;
     height: 100%;
     margin-left: 90px;
     border-radius: 15px;
-}
+}*/
 
 .more-abt-btn{
     display: flex;
