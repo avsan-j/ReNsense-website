@@ -245,7 +245,9 @@ nav ul{
 
 .intro-paragraph .para-text{
     margin: 10px 20px 20px 30px;
-    display: flex; 
+    display: flex;
+    align-items: center;
+    height: 35rem; 
 }
 
 .intro-paragraph ul{
@@ -399,13 +401,15 @@ nav ul{
 }
 
 .intro-image{
-    width: 500px;
-    height: 400px;
+    width: 450px;
+    height: 600px;
 }
 
 .intro-image img{
     margin-top: 30px;
     border-radius: 15px;
+    width: 400px;
+    height: 520px;
 }
 .para-subdiv-1 p{
     padding: 20px 100px 0px 0px;
@@ -455,7 +459,7 @@ nav ul{
 
 .myth-content.show{
     width: 450px;
-    height: 240px;
+    height: 180px;
     margin: 0px 0px 0px 5px;
     display: flex;
     flex-wrap: wrap;
@@ -467,7 +471,7 @@ nav ul{
 
 .myth{
     width: 350px;
-    height: 200px;
+    height: 300px;
     margin-right: 70px;
     margin-left: 80px;
     display: flex;
@@ -1143,12 +1147,12 @@ nav ul{
     height: 500px;
     text-align: left;
     margin: 150px 0 50px 0px;
-    padding-left: 140px;
+    padding-left: 100px;
     display: inline-flex;
 }
 
 .contact-info{
-    padding: 100px 100px 0 0px;
+    padding: 100px 150px 0 100px;
 }
 
 #contact-info{
@@ -1162,7 +1166,7 @@ nav ul{
 }
 
 .contact-image{
-    width: 990px; 
+    width: 790px; 
     height: 735px;
     position: relative;
     display: flex;
