@@ -1065,11 +1065,16 @@ nav ul{
 }
 
 .specials-content{
-    padding: 30px 100px 100px 100px;
+    padding: 30px 100px 70px 100px;
 }
 
 .specials-content p{
     font-size: 19px;
+}
+
+.specials-content li{
+    font-size: 18px;
+    padding: 10px 0px 10px 0px;
 }
 
 .more-content{
@@ -1097,7 +1102,7 @@ nav ul{
 .offers-container p{
     font-size: 19px;
     padding: 50px 100px 50px 100px;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .offers-container span{
@@ -1107,18 +1112,25 @@ nav ul{
 
 .offers{
     width: 100%;
-    height: auto;
+    height: 115rem;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.offers p{
+    font-size: 18px;
+    padding: 10px 30px 10px 40px;
+    margin-top: 0;
 }
 
 #offer{
     background-color: #333;
     color: #fffbf0;
     border-radius: 20px;
-    width: 400px;
-    height: 392px;
+    width: 80%;
+    height: 600px;
 }
 
 #offer h3{
@@ -1126,19 +1138,18 @@ nav ul{
     font-size: 27px;
     font-weight: 300;
     text-align: center;
-    padding: 20px 20px 0 0;
+    padding: 45px 20px 0 0px;
 }
 
 #offer ul{
-    list-style-type: none;
-    padding: 30px;
+    list-style-type:circle;
+    margin: 10px 20px 20px 25px;
 }
 
 #offer li{
-    font-size: 19px;
-    padding: 10px;
+    font-size: 18px;
+    padding: 5px;
 }
-
 
 /*Contact Page CSS*/
 
