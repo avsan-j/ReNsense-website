@@ -69,3 +69,16 @@ video5.addEventListener("ended", () =>{
     video5.pause();
     video5.currentTime() = 0;
 });
+
+video6.addEventListener("click", () => {
+    if (video6.paused) {
+        video6.play();
+    } else {
+        video6.pause();
+    }
+});
+
+video6.addEventListener("ended", () =>{
+    video6.pause();
+    video6.currentTime() = 0;
+});
