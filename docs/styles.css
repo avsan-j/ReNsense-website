@@ -32,7 +32,7 @@ p{
 }
 
 span{
-    font-family: 'Merriweather', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: 600;
 }
@@ -305,14 +305,14 @@ nav ul{
 
 .slogan{
     width: 100%;
-    height: 100px;
+    height: 150px;
     text-align: center;
-    margin: 50px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
 }
 
 .slogan h2{
-    font-size: 47px;
-    font-style: italic;
+    font-family: "DM Serif Text", serif;
+    font-size: 60px;
 }
 
 .slogan hr{
@@ -1112,7 +1112,7 @@ nav ul{
 }
 
 .offers-container span{
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 300;
 }
 
